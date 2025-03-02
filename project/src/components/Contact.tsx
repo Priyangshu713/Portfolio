@@ -215,8 +215,8 @@ const Contact: React.FC = () => {
     {
       icon: <MapPin className="w-6 h-6 text-primary-500" />,
       title: "Location",
-      content: "Kolkata, West Bengal",
-      link: "#",
+      content: "Contai, Purba Medinipur, West Bengal",
+      link: "https://www.google.co.in/maps/place/Contai,+West+Bengal+721401/@21.7771574,87.729263,14z/data=!3m1!4b1!4m6!3m5!1s0x3a0326e5394d8237:0x7bb6b4d525857f71!8m2!3d21.778109!4d87.7517427!16zL20vMGRsbXFw?hl=en&entry=ttu&g_ep=EgoyMDI1MDIyNi4xIKXMDSoASAFQAw%3D%3D",
     },
   ];
 
@@ -253,6 +253,8 @@ const Contact: React.FC = () => {
                 whileHover={{ y: -5 }}
                 variants={itemVariants}
                 style={{ transitionDelay: `${0.1 * index}s` }}
+                target={item.title === "Location" ? "_blank" : undefined}
+                rel={item.title === "Location" ? "noopener noreferrer" : undefined}
               >
                 <div className="p-3 bg-primary-100 rounded-lg pulse-glow">
                   {item.icon}
