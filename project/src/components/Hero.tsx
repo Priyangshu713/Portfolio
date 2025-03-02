@@ -133,10 +133,11 @@ const Hero: React.FC = () => {
               View My Work
             </motion.a>
             <motion.a 
-              href="#" 
+              href="/asset/Resume.pdf" 
               className="btn btn-outline flex items-center gap-2 shine"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
+              download
             >
               <Download size={18} />
               Download CV
