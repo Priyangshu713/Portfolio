@@ -154,7 +154,7 @@ const Projects: React.FC = () => {
                     <span>Live Demo</span>
                   </motion.a>
                   <motion.a
-                    href="#"
+                    href={project.github}
                     className="text-gray-700 hover:text-dark flex items-center gap-1 font-medium"
                     whileHover={{ x: 5 }}
                   >
@@ -244,7 +244,7 @@ const Projects: React.FC = () => {
                           />
                         </motion.a>
                         <motion.a
-                          href="#"
+                          href={projects.find(p => p.id === activeProject)?.github}
                           className="btn btn-outline overflow-hidden relative"
                           target="_blank"
                           rel="noopener noreferrer"
