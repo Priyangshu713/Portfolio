@@ -149,6 +149,8 @@ const Projects: React.FC = () => {
                     href={project.link}
                     className="text-primary-500 hover:text-primary-600 flex items-center gap-1 font-medium"
                     whileHover={{ x: 5 }}
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <ExternalLink size={16} />
                     <span>Live Demo</span>
@@ -157,6 +159,8 @@ const Projects: React.FC = () => {
                     href={project.github}
                     className="text-gray-700 hover:text-dark flex items-center gap-1 font-medium"
                     whileHover={{ x: 5 }}
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <Github size={16} />
                     <span>Source Code</span>
