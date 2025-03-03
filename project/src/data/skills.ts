@@ -36,6 +36,7 @@ export const skillCategories: SkillCategory[] = [
       { name: "Express.js", icon: "express", level: 78 },
       // { name: "RESTful APIs", icon: "api", level: 85 },
       { name: "Python", icon: "python", level: 85 },
+      { name: "Machine Learning", icon: "Machine Learning", level: 65 },
       // { name: "GraphQL", icon: "graphql", level: 70 },
       { name: "MongoDB", icon: "mongodb", level: 72 },
       // { name: "Firebase", icon: "firebase", level: 80 },
