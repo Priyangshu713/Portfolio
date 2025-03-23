@@ -7,7 +7,7 @@ export const projects: Project[] = [
     description: "A web application that predicts the likelihood of diabetes based on the user's input data.",
     image: "https://plus.unsplash.com/premium_photo-1661771843714-fa40c226f43c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     tags: ["React", "TypeScript", "Tailwind CSS", "Python", "Flask"],
-    link: "https://diabetes-prediction-v1-0.vercel.app/",
+    link: "https://diabetic-prediction-fontend.vercel.app/",
     github: "https://github.com/Priyangshu713/diabetes_prediction_V1.1"
   },
   {
