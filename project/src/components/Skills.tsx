@@ -106,12 +106,12 @@ const Skills: React.FC = () => {
 
   const getCategoryIcon = (name: string) => {
     switch(name.toLowerCase()) {
-      case 'frontend development':
-        return <Code className="w-6 h-6" />;
-      case 'ui/ux design':
-        return <Palette className="w-6 h-6" />;
-      case 'backend development':
+      case 'data analytics':
         return <Database className="w-6 h-6" />;
+      case 'business intelligence':
+        return <Award className="w-6 h-6" />;
+      case 'statistical modeling':
+        return <BookOpen className="w-6 h-6" />;
       case 'other skills':
         return <Zap className="w-6 h-6" />;
       case 'soft skills':
@@ -119,7 +119,7 @@ const Skills: React.FC = () => {
       case 'learning':
         return <BookOpen className="w-6 h-6" />;
       default:
-        return <Code className="w-6 h-6" />;
+        return <Database className="w-6 h-6" />;
     }
   };
 
@@ -153,7 +153,7 @@ const Skills: React.FC = () => {
             My Expertise
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto mt-6 text-lg fade-in-up">
-            I've cultivated a diverse skill set throughout my career, focusing on creating exceptional digital experiences through technical expertise and creative design.
+            I specialize in <b>data analysis</b>, <b>business intelligence</b>, and <b>statistical modeling</b>. My skill set includes extracting insights from data, building visualizations, and solving real-world problems using Python, SQL, and BI tools.
           </p>
         </motion.div>
         
