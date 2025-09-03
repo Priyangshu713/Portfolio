@@ -44,9 +44,9 @@ const Hero: React.FC = () => {
 
   // Fixed designation titles
   const designations = [
-    "Frontend Developer",
-    "UI/UX Designer",
-    "Creative Thinker",
+    "Data Analyst",
+    "Business Intelligence",
+    "Insight Generator",
     "Problem Solver"
   ];
   
@@ -114,7 +114,7 @@ const Hero: React.FC = () => {
             animate="visible"
             variants={textVariants}
           >
-            I craft beautiful, functional, and user-centered digital experiences with a focus on motion and interaction design.
+            I transform raw data into actionable insights, enabling smarter business decisions through analytics, visualization, and storytelling.
           </motion.p>
           
           <motion.div 
