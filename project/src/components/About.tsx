@@ -56,24 +56,24 @@ const About: React.FC = () => {
 
   const timelineItems = [
     {
-      year: "2022 - Present",
+      year: "Sep 2022 - Jul 2025",
       title: "Bachelor of Computer Applications (BCA)",
       company: "Global Institute of Science and Technology",
-      description: "Focusing on web development, UI/UX design, and artificial intelligence. Active member of the Web Development Club.",
+      description: "Focusing on Data Analytics and Business Intelligence for Decision Making.",
       icon: <BookOpen className="w-6 h-6 text-primary-500" />,
     },
     {
-      year: "2024 - 2024",
+      year: "Jul 2024 - Aug 2024",
       title: "Machine Learning Intern",
       company: "Euphoia GenX",
-      description: "Developed a machine learning model for predicting the price of a product based on its features.",
+      description: "Developed Machine Learning models for Diabetes Prediction, achieving 97% accuracy.",
       icon: <Award className="w-6 h-6 text-primary-500" />,
     },
     {
-      year: "2020 - 2022",
+      year: "2014 - 2022",
       title: "High School",
       company: "Science Academy",
-      description: "I'm a science student specializing in computer science. I'm currently pursuing my degree while building practical skills through projects and internships.",
+      description: "I'm a science student specializing in computer science. I'm currently pursuing my degree while building practical skills through projects and internship.",
       icon: <GraduationCap className="w-6 h-6 text-primary-500" />,
     },
   ];
@@ -100,13 +100,13 @@ const About: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <motion.div variants={itemVariants} className="fade-in-left">
             <p className="text-gray-700 mb-6 leading-relaxed">
-              I'm Priyangshu Dutta, a passionate Computer Science student specializing in computer science. I'm currently pursuing my degree while building practical skills through projects and internships.
+              I'm Priyangshu Dutta, a passionate Computer Science student specializing in <b>data analytics</b> and business intelligence. I'm currently pursuing my degree while building practical skills through projects and internships focused on extracting insights from data.
             </p>
             <p className="text-gray-700 mb-6 leading-relaxed">
-              My approach combines technical learning with creative design thinking. I'm developing expertise in building responsive web applications with modern JavaScript frameworks while exploring user experience principles through coursework and personal projects.
+              My approach combines technical learning with analytical thinking. I'm developing expertise in <b>data analysis, visualization, and statistical modeling</b> using Python, SQL, and modern BI tools. I love transforming raw data into actionable insights that drive smarter decisions.
             </p>
             <p className="text-gray-700 mb-6 leading-relaxed">
-              When I'm not coding or studying, you can find me participating in hackathons, contributing to open-source projects, or sharing my knowledge through campus tech events and study groups.
+              When I'm not crunching numbers or studying, you can find me participating in analytics competitions, contributing to open-source data projects, or sharing my knowledge through campus tech events and study groups.
             </p>
 
             <motion.div
@@ -126,8 +126,8 @@ const About: React.FC = () => {
                 <p className="text-gray-600">Hackathons</p>
               </div>
               <div className="fade-in-up stagger-4">
-                <h3 className="font-serif text-xl font-bold text-primary-500 mb-2">3.9</h3>
-                <p className="text-gray-600">GPA</p>
+                <h3 className="font-serif text-xl font-bold text-primary-500 mb-2">7.1</h3>
+                <p className="text-gray-600">CGPA</p>
               </div>
             </motion.div>
           </motion.div>
