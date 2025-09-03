@@ -126,7 +126,7 @@ const About: React.FC = () => {
                 <p className="text-gray-600">Hackathons</p>
               </div>
               <div className="fade-in-up stagger-4">
-                <h3 className="font-serif text-xl font-bold text-primary-500 mb-2">7.1</h3>
+                <h3 className="font-serif text-xl font-bold text-primary-500 mb-2">8.0</h3>
                 <p className="text-gray-600">CGPA</p>
               </div>
             </motion.div>
