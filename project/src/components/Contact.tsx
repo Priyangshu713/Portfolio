@@ -203,8 +203,8 @@ const Contact: React.FC = () => {
     {
       icon: <Mail className="w-6 h-6 text-primary-500" />,
       title: "Email",
-      content: "priyangshudutta2003@gmail.com",
-      link: "mailto:priyangshudutta2003@gmail.com",
+      content: "priyangshu713@gmail.com",
+      link: "mailto:priyangshu713@gmail.com",
     },
     {
       icon: <Phone className="w-6 h-6 text-primary-500" />,
