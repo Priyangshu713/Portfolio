@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
               <span className="font-serif text-xl font-bold">Priyangshu</span>
             </a>
             <p className="text-gray-400 mt-2 max-w-md">
-              Creating beautiful, functional, and user-centered digital experiences.
+              Empowering smarter decisions through data analytics, insights, and visualization.
             </p>
           </div>
           
