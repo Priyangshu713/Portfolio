@@ -163,7 +163,7 @@ const About: React.FC = () => {
               </div>
             </motion.div>
           </motion.div>
-          <motion.div variants={itemVariants} className="fade-in-right">
+          <motion.div variants={itemVariants} className="fade-in-right md:-mt-40">
             {/* Header with swap */}
             <div className="flex items-center mb-6 space-x-4">
               <h3
