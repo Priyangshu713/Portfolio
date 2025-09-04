@@ -23,7 +23,7 @@ export const projects: Project[] = [
     id: 2,
     title: "Health Connect",
     description: "A health information platform, helping users identify potential concerns. A comprehensive health data through diverse metrics and intuitive interfaces.",
-    image: "https://raw.githubusercontent.com/Priyangshu713/project_images/refs/heads/main/Project2.png",
+    image: "/certificates/Project2.png",
     tags: ["Python", "Scikit-learn", "Django", "Data Analysis", "Machine Learning", "Fine Tuning"],
     link: "https://health-connect-official.vercel.app/",
     github: "https://github.com/Priyangshu713/Health-Connect-App"
@@ -32,7 +32,7 @@ export const projects: Project[] = [
     id: 1,
     title: "Diabetes Prediction Web Application",
     description: "A machine learning-powered web app that predicts diabetes risk from user health data. Includes data cleaning, feature engineering, and model deployment.",
-    image: "https://raw.githubusercontent.com/Priyangshu713/project_images/refs/heads/main/Project1.png",
+    image: "/certificates/Project1.png",
     tags: ["Python", "Scikit-learn", "Flask", "Data Analysis", "Machine Learning"],
     link: "https://diabetic-prediction-fontend.vercel.app/",
     github: "https://github.com/Priyangshu713/diabetes_prediction"
