@@ -185,7 +185,7 @@ const About: React.FC = () => {
                 Achievements
               </h3>
             </div>
-            <div className="relative min-h-[24rem]">
+            <div className="relative md:min-h-[24rem]">
               <AnimatePresence mode="wait">
                 {activeTab === 'courses' ? (
                   <motion.div
@@ -194,7 +194,7 @@ const About: React.FC = () => {
                     initial="initial"
                     animate="animate"
                     exit="exit"
-                    className="space-y-8 absolute inset-0 before:absolute before:inset-0 before:ml-5 before:-translate-x-1/2 before:h-full before:w-0.5 before:bg-primary-200"
+                    className="space-y-8 md:absolute md:inset-0 before:absolute before:inset-0 before:ml-5 before:-translate-x-1/2 before:h-full before:w-0.5 before:bg-primary-200"
                   >
                     {coursesItems.map((item) => (
                       <motion.div
@@ -225,7 +225,7 @@ const About: React.FC = () => {
                     initial="initial"
                     animate="animate"
                     exit="exit"
-                    className="space-y-8 absolute inset-0 before:absolute before:inset-0 before:ml-5 before:-translate-x-1/2 before:h-full before:w-0.5 before:bg-primary-200"
+                    className="space-y-8 md:absolute md:inset-0 before:absolute before:inset-0 before:ml-5 before:-translate-x-1/2 before:h-full before:w-0.5 before:bg-primary-200"
                   >
                     {achievementsItems.map((item) => (
                       <motion.div
@@ -258,7 +258,7 @@ const About: React.FC = () => {
                     initial="initial"
                     animate="animate"
                     exit="exit"
-                    className="space-y-8 absolute inset-0 before:absolute before:inset-0 before:ml-5 before:-translate-x-1/2 before:h-full before:w-0.5 before:bg-primary-200"
+                    className="space-y-8 md:absolute md:inset-0 before:absolute before:inset-0 before:ml-5 before:-translate-x-1/2 before:h-full before:w-0.5 before:bg-primary-200"
                   >
                     {timelineItems.map((item) => (
                       <motion.div
